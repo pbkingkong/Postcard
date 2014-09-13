@@ -13,6 +13,8 @@
 		5A05916719C1F4F300A315DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A05916619C1F4F300A315DD /* Images.xcassets */; };
 		5A05916A19C1F4F300A315DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A05916819C1F4F300A315DD /* LaunchScreen.xib */; };
 		5A05917619C1F4F300A315DD /* PostkarteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A05917519C1F4F300A315DD /* PostkarteTests.swift */; };
+		5A5E56E219C1F69F0071268A /* Alex Konfi bearbeitet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E56E119C1F69F0071268A /* Alex Konfi bearbeitet.jpg */; };
+		5A5E56E419C204B30071268A /* BestBrandEverLogo_FNL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E56E319C204B30071268A /* BestBrandEverLogo_FNL.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5A05916F19C1F4F300A315DD /* PostkarteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostkarteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A05917419C1F4F300A315DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A05917519C1F4F300A315DD /* PostkarteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostkarteTests.swift; sourceTree = "<group>"; };
+		5A5E56E119C1F69F0071268A /* Alex Konfi bearbeitet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alex Konfi bearbeitet.jpg"; sourceTree = "<group>"; };
+		5A5E56E319C204B30071268A /* BestBrandEverLogo_FNL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BestBrandEverLogo_FNL.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		5A05915D19C1F4F300A315DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A5E56E319C204B30071268A /* BestBrandEverLogo_FNL.jpg */,
+				5A5E56E119C1F69F0071268A /* Alex Konfi bearbeitet.jpg */,
 				5A05915E19C1F4F300A315DD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5E56E219C1F69F0071268A /* Alex Konfi bearbeitet.jpg in Resources */,
+				5A5E56E419C204B30071268A /* BestBrandEverLogo_FNL.jpg in Resources */,
 				5A05916519C1F4F300A315DD /* Main.storyboard in Resources */,
 				5A05916A19C1F4F300A315DD /* LaunchScreen.xib in Resources */,
 				5A05916719C1F4F300A315DD /* Images.xcassets in Resources */,
@@ -405,6 +413,7 @@
 				5A05917B19C1F4F300A315DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A05917C19C1F4F300A315DD /* Build configuration list for PBXNativeTarget "PostkarteTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				5A05917E19C1F4F300A315DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
