@@ -106,6 +106,15 @@
                                     <rect key="frame" x="26" y="101" width="154" height="81"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWD-Wy-UKB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="375" width="170" height="67"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -115,6 +124,7 @@
                                 <exclude reference="YrN-Op-fKg"/>
                                 <exclude reference="opw-O5-o9E"/>
                                 <exclude reference="LRW-sm-4mg"/>
+                                <exclude reference="JWD-Wy-UKB"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -124,6 +134,7 @@
                                 <include reference="YrN-Op-fKg"/>
                                 <include reference="opw-O5-o9E"/>
                                 <include reference="LRW-sm-4mg"/>
+                                <include reference="JWD-Wy-UKB"/>
                             </mask>
                         </variation>
                     </view>
@@ -133,6 +144,7 @@
                         <outlet property="enterAMessageTextField" destination="YrN-Op-fKg" id="Z2N-J2-zTl"/>
                         <outlet property="enterNameTextField" destination="0Du-iV-COm" id="NXD-5T-uDw"/>
                         <outlet property="messageLabel" destination="LRW-sm-4mg" id="B2a-Ge-Hw5"/>
+                        <outlet property="nameLabel" destination="JWD-Wy-UKB" id="BWY-oG-dXW"/>
                         <outlet property="sendMailButton" destination="opw-O5-o9E" id="O88-2m-l56"/>
                     </connections>
                 </viewController>
@@ -158,6 +170,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxQ-Sj-UlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-549" y="137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rhL-S7-hfS">
+            <objects>
+                <viewController id="xo8-Hf-dTu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g5z-gd-Tbn"/>
+                        <viewControllerLayoutGuide type="bottom" id="e86-wO-Z6Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Sq-ui-3hK">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6kE-UM-liB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
